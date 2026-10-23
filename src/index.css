@@ -1,0 +1,59 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  color: #f3f8ff;
+  background: #030814;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  min-width: 320px;
+  background: #030814;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  background: #030814;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid #31d7ff;
+  outline-offset: 4px;
+}
+
+img {
+  max-width: 100%;
+}
+
+::selection {
+  color: white;
+  background: #087cb7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
